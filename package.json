@@ -1,0 +1,20 @@
+{
+  "name": "ts_tmpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc-watch --onsuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/got": "^9.6.11",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "got": "^11.5.0"
+  }
+}
